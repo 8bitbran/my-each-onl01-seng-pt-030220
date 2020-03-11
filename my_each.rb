@@ -11,5 +11,5 @@ end
 my_array = []
 
 my_each(my_array) do |i|
-  puts i
+  return i
 end
