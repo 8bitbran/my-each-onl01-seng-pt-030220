@@ -8,6 +8,8 @@ def my_each(array)
   array
 end
 
-my_each(words) do |i|
+my_array = []
+
+my_each(my_array) do |i|
   puts i
 end
